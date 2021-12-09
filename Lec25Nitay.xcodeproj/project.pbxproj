@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6522C0C27625BB100241C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6522C0B27625BB100241C8B /* AppDelegate.swift */; };
+		F6522C0E27625BB100241C8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6522C0D27625BB100241C8B /* SceneDelegate.swift */; };
+		F6522C1027625BB100241C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6522C0F27625BB100241C8B /* ViewController.swift */; };
+		F6522C1327625BB100241C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6522C1127625BB100241C8B /* Main.storyboard */; };
+		F6522C1627625BB100241C8B /* Lec25Nitay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6522C1427625BB100241C8B /* Lec25Nitay.xcdatamodeld */; };
+		F6522C1827625BB200241C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6522C1727625BB200241C8B /* Assets.xcassets */; };
+		F6522C1B27625BB200241C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6522C1927625BB200241C8B /* LaunchScreen.storyboard */; };
+		F6522C2627625BB200241C8B /* Lec25NitayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6522C2527625BB200241C8B /* Lec25NitayTests.swift */; };
+		F6522C3027625BB200241C8B /* Lec25NitayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6522C2F27625BB200241C8B /* Lec25NitayUITests.swift */; };
+		F6522C3227625BB200241C8B /* Lec25NitayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6522C3127625BB200241C8B /* Lec25NitayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6522C2227625BB200241C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6522C0027625BB100241C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6522C0727625BB100241C8B;
+			remoteInfo = Lec25Nitay;
+		};
+		F6522C2C27625BB200241C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6522C0027625BB100241C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6522C0727625BB100241C8B;
+			remoteInfo = Lec25Nitay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6522C0827625BB100241C8B /* Lec25Nitay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lec25Nitay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6522C0B27625BB100241C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6522C0D27625BB100241C8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6522C0F27625BB100241C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6522C1227625BB100241C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6522C1527625BB100241C8B /* Lec25Nitay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lec25Nitay.xcdatamodel; sourceTree = "<group>"; };
+		F6522C1727625BB200241C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6522C1A27625BB200241C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6522C1C27625BB200241C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6522C2127625BB200241C8B /* Lec25NitayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lec25NitayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6522C2527625BB200241C8B /* Lec25NitayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec25NitayTests.swift; sourceTree = "<group>"; };
+		F6522C2B27625BB200241C8B /* Lec25NitayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lec25NitayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6522C2F27625BB200241C8B /* Lec25NitayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec25NitayUITests.swift; sourceTree = "<group>"; };
+		F6522C3127625BB200241C8B /* Lec25NitayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lec25NitayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6522C0527625BB100241C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6522C1E27625BB200241C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6522C2827625BB200241C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6522BFF27625BB100241C8B = {
+			isa = PBXGroup;
+			children = (
+				F6522C0A27625BB100241C8B /* Lec25Nitay */,
+				F6522C2427625BB200241C8B /* Lec25NitayTests */,
+				F6522C2E27625BB200241C8B /* Lec25NitayUITests */,
+				F6522C0927625BB100241C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6522C0927625BB100241C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6522C0827625BB100241C8B /* Lec25Nitay.app */,
+				F6522C2127625BB200241C8B /* Lec25NitayTests.xctest */,
+				F6522C2B27625BB200241C8B /* Lec25NitayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6522C0A27625BB100241C8B /* Lec25Nitay */ = {
+			isa = PBXGroup;
+			children = (
+				F6522C0B27625BB100241C8B /* AppDelegate.swift */,
+				F6522C0D27625BB100241C8B /* SceneDelegate.swift */,
+				F6522C0F27625BB100241C8B /* ViewController.swift */,
+				F6522C1127625BB100241C8B /* Main.storyboard */,
+				F6522C1727625BB200241C8B /* Assets.xcassets */,
+				F6522C1927625BB200241C8B /* LaunchScreen.storyboard */,
+				F6522C1C27625BB200241C8B /* Info.plist */,
+				F6522C1427625BB100241C8B /* Lec25Nitay.xcdatamodeld */,
+			);
+			path = Lec25Nitay;
+			sourceTree = "<group>";
+		};
+		F6522C2427625BB200241C8B /* Lec25NitayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6522C2527625BB200241C8B /* Lec25NitayTests.swift */,
+			);
+			path = Lec25NitayTests;
+			sourceTree = "<group>";
+		};
+		F6522C2E27625BB200241C8B /* Lec25NitayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6522C2F27625BB200241C8B /* Lec25NitayUITests.swift */,
+				F6522C3127625BB200241C8B /* Lec25NitayUITestsLaunchTests.swift */,
+			);
+			path = Lec25NitayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6522C0727625BB100241C8B /* Lec25Nitay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6522C3527625BB200241C8B /* Build configuration list for PBXNativeTarget "Lec25Nitay" */;
+			buildPhases = (
+				F6522C0427625BB100241C8B /* Sources */,
+				F6522C0527625BB100241C8B /* Frameworks */,
+				F6522C0627625BB100241C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lec25Nitay;
+			productName = Lec25Nitay;
+			productReference = F6522C0827625BB100241C8B /* Lec25Nitay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6522C2027625BB200241C8B /* Lec25NitayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6522C3827625BB200241C8B /* Build configuration list for PBXNativeTarget "Lec25NitayTests" */;
+			buildPhases = (
+				F6522C1D27625BB200241C8B /* Sources */,
+				F6522C1E27625BB200241C8B /* Frameworks */,
+				F6522C1F27625BB200241C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6522C2327625BB200241C8B /* PBXTargetDependency */,
+			);
+			name = Lec25NitayTests;
+			productName = Lec25NitayTests;
+			productReference = F6522C2127625BB200241C8B /* Lec25NitayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6522C2A27625BB200241C8B /* Lec25NitayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6522C3B27625BB200241C8B /* Build configuration list for PBXNativeTarget "Lec25NitayUITests" */;
+			buildPhases = (
+				F6522C2727625BB200241C8B /* Sources */,
+				F6522C2827625BB200241C8B /* Frameworks */,
+				F6522C2927625BB200241C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6522C2D27625BB200241C8B /* PBXTargetDependency */,
+			);
+			name = Lec25NitayUITests;
+			productName = Lec25NitayUITests;
+			productReference = F6522C2B27625BB200241C8B /* Lec25NitayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6522C0027625BB100241C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F6522C0727625BB100241C8B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					F6522C2027625BB200241C8B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F6522C0727625BB100241C8B;
+					};
+					F6522C2A27625BB200241C8B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F6522C0727625BB100241C8B;
+					};
+				};
+			};
+			buildConfigurationList = F6522C0327625BB100241C8B /* Build configuration list for PBXProject "Lec25Nitay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6522BFF27625BB100241C8B;
+			productRefGroup = F6522C0927625BB100241C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6522C0727625BB100241C8B /* Lec25Nitay */,
+				F6522C2027625BB200241C8B /* Lec25NitayTests */,
+				F6522C2A27625BB200241C8B /* Lec25NitayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6522C0627625BB100241C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6522C1B27625BB200241C8B /* LaunchScreen.storyboard in Resources */,
+				F6522C1827625BB200241C8B /* Assets.xcassets in Resources */,
+				F6522C1327625BB100241C8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6522C1F27625BB200241C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6522C2927625BB200241C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6522C0427625BB100241C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6522C1027625BB100241C8B /* ViewController.swift in Sources */,
+				F6522C0C27625BB100241C8B /* AppDelegate.swift in Sources */,
+				F6522C0E27625BB100241C8B /* SceneDelegate.swift in Sources */,
+				F6522C1627625BB100241C8B /* Lec25Nitay.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6522C1D27625BB200241C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6522C2627625BB200241C8B /* Lec25NitayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6522C2727625BB200241C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6522C3227625BB200241C8B /* Lec25NitayUITestsLaunchTests.swift in Sources */,
+				F6522C3027625BB200241C8B /* Lec25NitayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6522C2327625BB200241C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6522C0727625BB100241C8B /* Lec25Nitay */;
+			targetProxy = F6522C2227625BB200241C8B /* PBXContainerItemProxy */;
+		};
+		F6522C2D27625BB200241C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6522C0727625BB100241C8B /* Lec25Nitay */;
+			targetProxy = F6522C2C27625BB200241C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6522C1127625BB100241C8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6522C1227625BB100241C8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6522C1927625BB200241C8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6522C1A27625BB200241C8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6522C3327625BB200241C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6522C3427625BB200241C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6522C3627625BB200241C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6XPQ6449X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lec25Nitay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nitay.Lec25Nitay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6522C3727625BB200241C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6XPQ6449X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lec25Nitay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nitay.Lec25Nitay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6522C3927625BB200241C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6XPQ6449X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nitay.Lec25NitayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lec25Nitay.app/Lec25Nitay";
+			};
+			name = Debug;
+		};
+		F6522C3A27625BB200241C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6XPQ6449X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nitay.Lec25NitayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lec25Nitay.app/Lec25Nitay";
+			};
+			name = Release;
+		};
+		F6522C3C27625BB200241C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6XPQ6449X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nitay.Lec25NitayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lec25Nitay;
+			};
+			name = Debug;
+		};
+		F6522C3D27625BB200241C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6XPQ6449X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nitay.Lec25NitayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lec25Nitay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6522C0327625BB100241C8B /* Build configuration list for PBXProject "Lec25Nitay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6522C3327625BB200241C8B /* Debug */,
+				F6522C3427625BB200241C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6522C3527625BB200241C8B /* Build configuration list for PBXNativeTarget "Lec25Nitay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6522C3627625BB200241C8B /* Debug */,
+				F6522C3727625BB200241C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6522C3827625BB200241C8B /* Build configuration list for PBXNativeTarget "Lec25NitayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6522C3927625BB200241C8B /* Debug */,
+				F6522C3A27625BB200241C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6522C3B27625BB200241C8B /* Build configuration list for PBXNativeTarget "Lec25NitayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6522C3C27625BB200241C8B /* Debug */,
+				F6522C3D27625BB200241C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6522C1427625BB100241C8B /* Lec25Nitay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6522C1527625BB100241C8B /* Lec25Nitay.xcdatamodel */,
+			);
+			currentVersion = F6522C1527625BB100241C8B /* Lec25Nitay.xcdatamodel */;
+			path = Lec25Nitay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6522C0027625BB100241C8B /* Project object */;
+}
