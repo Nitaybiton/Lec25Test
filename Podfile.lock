@@ -1,0 +1,20 @@
+PODS:
+  - CalendarKit (1.1.1)
+  - FSCalendar (2.8.2)
+
+DEPENDENCIES:
+  - CalendarKit
+  - FSCalendar
+
+SPEC REPOS:
+  trunk:
+    - CalendarKit
+    - FSCalendar
+
+SPEC CHECKSUMS:
+  CalendarKit: 038224cb4e91aeb7b471b4159e7d632965d04288
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+
+PODFILE CHECKSUM: d17a0378210958225d74ffac20c832e71f4feeda
+
+COCOAPODS: 1.11.2
